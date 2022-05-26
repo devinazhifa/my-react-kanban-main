@@ -3,8 +3,8 @@ import React from 'react'
 const CoverImage = () => {
   return (
     <>
-      <div className='bg-white rounded-lg px-4 pt-4'>
-        <img src='./images/cover-01.png'/>
+      <div className='bg-white rounded-lg px-3 pt-3'>
+        <img src='./images/cover-01.png' className='rounded-md'/>
       </div>
     </>
   )

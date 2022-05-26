@@ -1,6 +1,7 @@
 import React from 'react'
 import CoverImage from './CoverImage'
 import Meta from './Meta'
+import Separator from './Separator'
 
 const Header = () => {
   return (
@@ -8,19 +9,22 @@ const Header = () => {
       <div className='grid grid-cols-4 gap-6'>
         <div className='bg-white rounded-lg'>
           <CoverImage />
+          <Meta />
         </div>
         <div className='bg-white rounded-lg'>
-          Card/Header
+          <CoverImage />
+          <Meta />
         </div>
         <div className='bg-white rounded-lg'>
-          Card/Header
+          <CoverImage />
+          <Meta />
         </div>
         <div className='bg-white rounded-lg'>
-          Card/Header
+          <CoverImage />
+          <Meta />
         </div>
       </div>
         
-        <Meta />
     </>
   )
 }
